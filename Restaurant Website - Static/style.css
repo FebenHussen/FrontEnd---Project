@@ -1,0 +1,676 @@
+* 
+{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+/* dsh_logo */
+
+#logo-link{
+    box-sizing: border-box;
+    position:absolute;
+    width: 138px;
+    height: 63px;
+    left: 100px;
+    top: 40px;
+    font-family:'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 580px;
+    font-size: 45px;
+    line-height: 58px;
+    color: #000000;
+    border: 1px trans;
+    text-decoration: none;
+}
+/*background Image for the opening page*/
+
+#banner {
+    background: url(images/bowl1.png);
+    background-size: cover;
+    background-position: right;
+    height: 110vh;
+    position:relative;
+}
+
+.moto h1{
+    position: absolute;
+    width: 1005px;
+    height: 1550px;
+    left: 100px;
+    top: 230px;
+    
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6rem;
+    line-height: 85px;
+    
+    color: #000000;
+}
+
+
+.dish_icon{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    left: 030px;
+    top: 48px;
+}
+
+.shop_icon{
+    position: fixed;
+    width: 56px;
+    height: 48px;
+    right: 28px;
+    top: 30px;
+
+}
+.shop_icon:hover {
+    transition: all .05s ease;
+    
+}
+.orderbtn{
+    line-height: 60px;
+    text-align: center;
+    position:absolute;
+    width: 250px;
+    height: 60px;
+    left: 220px;
+    top: 520px;
+
+    font-family:'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+
+    background: #F8AC78;
+    opacity: 0.7;
+    border-radius: 100px;
+}
+ #order-links{
+       
+    text-decoration: none;
+    color: #000000;
+    
+}
+#order-links:hover{
+    height: 100px;
+    width: 100px;
+
+}
+.orderbtn:hover{
+    background: #8AB882;
+    transition: all .05s ease;
+    border-color: #f3a999;
+    color: #000;
+    border-radius: 100px;
+}
+/*Buttons on the right vertically stacked */
+
+.navbtn{
+    font-family:'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+
+}
+#menu-links{
+    position: fixed;
+    width: 158px;
+    height: 40px;
+    right: -20px;
+    top: 140px;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: #000000;
+
+}
+#menu-links:hover{
+    background: #f8ac78;
+    transition: all .05s ease;
+    border-color: #f3a999;
+    color: #000;
+    border-radius: 100px;
+    width: 170px;
+    height: 100;
+}
+#story-links{
+    position: fixed;
+    width: 158px;
+    height: 40px;
+    right: -20px;
+    top: 310px;
+    color: #000000;
+    text-decoration: none;
+    transform: rotate(-90deg);
+}
+
+#story-links:hover{
+    background: #A1B67E;;
+    transition: all .05s ease;
+    border-color: #f3a999;
+    color: #000;
+    border-radius: 100px;
+    width: 190px;
+    height: 100;
+}
+#loca-links{
+    position: fixed;
+    width: 158px;
+    height: 40px;
+    right: -20px;
+    top: 520px;
+    color: #000000;
+    transform: rotate(-90deg);
+    text-decoration: none;
+}
+
+#loca-links:hover{
+    background: #E2ECEB;
+    transition: all .05s ease;
+    border-color: #f3a999;
+    color: #000;
+    border-radius: 100px;
+    width: 180px;
+    height: 100;
+}
+
+@media only screen and (max-width:900px){
+    #banner {
+        background: url(images/bowl1.jpg);
+        background-size: cover;
+        background-position: 34%;
+        height: 150vh;
+        position:sticky;
+    }
+    #logo-link{
+        box-sizing: border-box;
+        position:absolute;
+        width: 138px;
+        height: 63px;
+        left: 100px;
+        top: 36px;
+        font-family:'Roboto Mono', monospace;
+        font-style: normal;
+        font-weight: 580px;
+        font-size: 32px;
+        line-height: 58px;
+        color: #000000;
+        border: 1px trans;
+        text-decoration: none;
+    }
+    .moto h1{
+        position: absolute;
+        width: 705px;
+        height: 250px;
+        left: 70px;
+        top: 230px;
+        
+        font-family: 'Playfair Display';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 85px;
+        
+        color: #000000;
+    }
+    
+    .dish_icon{
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        left: 30px;
+        top: 40px;
+    }
+    
+    .shop_icon{
+        position: fixed;
+        width: 36px;
+        height: 28px;
+        right: 58px;
+        top: 25px;
+    
+    }
+
+    .orderbtn{
+        line-height: 60px;
+        text-align: center;
+        position:absolute;
+        width: 200px;
+        height: 60px;
+        left:80px;
+        top: 480px;
+    
+        font-family:'Roboto Mono', monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+    
+        background: #F8AC78;
+        opacity: 0.7;
+        border-radius: 100px;
+    }
+     #order-links{
+           
+        text-decoration: none;
+        color: #000000;
+        
+    }
+    #order-links:hover{
+        height: 70px;
+        width: 70px;
+    
+    }
+    .orderbtn:hover{
+        background: #8AB882;
+        transition: all .05s ease;
+        border-color: #f3a999;
+        color: #000;
+        border-radius: 70px;
+    }
+    /*Buttons on the right vertically stacked */
+    
+    .navbtn{
+        font-family:'Roboto Mono', monospace;
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    
+    }
+    #menu-links{
+        position: fixed;
+        width: 158px;
+        height: 40px;
+        right: -20px;
+        top: 140px;
+        transform: rotate(-90deg);
+        text-decoration: none;
+        color: #000000;
+    
+    }
+    #menu-links:hover{
+        background: #f8ac78;
+        transition: all .05s ease;
+        border-color: #f3a999;
+        color: #000;
+        border-radius: 100px;
+        width: 170px;
+        height: 100;
+    }
+    #story-links{
+        position: fixed;
+        width: 158px;
+        height: 40px;
+        right: -20px;
+        top: 310px;
+        color: #000000;
+        text-decoration: none;
+        transform: rotate(-90deg);
+    }
+    
+    #story-links:hover{
+        background: #A1B67E;;
+        transition: all .05s ease;
+        border-color: #f3a999;
+        color: #000;
+        border-radius: 100px;
+        width: 190px;
+        height: 100;
+    }
+    #loca-links{
+        position: fixed;
+        width: 158px;
+        height: 40px;
+        right: -20px;
+        top: 520px;
+        color: #000000;
+        transform: rotate(-90deg);
+        text-decoration: none;
+    }
+    
+    #loca-links:hover{
+        background: #E2ECEB;
+        transition: all .05s ease;
+        border-color: #f3a999;
+        color: #000;
+        border-radius: 100px;
+        width: 180px;
+        height: 100;
+    }
+}
+
+
+/*2nd Page Begins*/
+#pop{
+    padding: 20px;
+    background: #F8AC78;
+    text-align: center;
+
+}
+.pop_link{
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 40px;
+
+    color: #000000;
+    text-decoration: none;
+    margin-top: 4rem;
+}
+#logos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 138px;
+    height: 63px;
+    left: 161px;
+    top: 920px;
+    text-decoration: none;
+}
+
+
+
+
+/* Popular Dishes */  
+   #popular {
+        width: 100%;
+        height: 100%;
+        padding: 125px 0;
+        background: #F8AC78;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+    }  
+
+ 
+
+
+
+/*Pop Dishes List*/
+
+
+.pop-list{
+    width: 456px;
+    height: 585px;
+    background: #FFE4CD;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 10px;
+    border-radius: 10px;
+
+}
+        .pop-list img{
+          
+            margin-right: -7rem;
+            margin-bottom: 15rem;
+        }
+    .pop-dis{
+        width: 22rem;
+        height: 40rem;
+        margin-left: -14rem;
+        margin-top: 46rem;
+    }
+    .pop-dis h3{
+        font-size: 1.8rem;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .pop-dis p{
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 110;
+        font-family: 'Playfair Display';
+    }
+    .icon{
+        width: 10%;
+        margin-left: -3rem;
+        margin-top: 45rem; 
+    }
+    .price h3{
+        margin-left: -20rem;
+        margin-top: 30rem;
+        font-size:2.25rem ;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+
+/* Appetizer page BEGIN*/
+
+#app{
+    padding: 30px;
+    background: #F8AC78;
+    text-align: center;
+
+}
+.app_link{
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 40px;
+
+    color: #000000;
+    text-decoration: none;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    text-align: left;
+    margin-left: 4.5rem;
+}
+
+#appetizer {
+    width: 100%;
+    height: 100%;
+    padding: 80px ;
+    background: #F8AC78;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+} 
+.app-list{
+    width: 320px;
+    height: 334px;
+    background: #FFE4CD;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 1rem;
+    border-radius: 10px;
+
+}
+        .app-list img{
+          
+            margin-right: .5rem;
+            margin-bottom: 25rem;
+           
+        }
+    .app-dis{
+        width: 17rem;
+        height: 20rem;
+        margin-left: -18rem;
+        margin-top: 18rem;
+    }
+    .app-dis h3{
+        font-size: 1.55rem;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .app-dis p{
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 110;
+        font-family: 'Playfair Display';
+    }
+    .icona{
+     
+        margin-left: -3rem;
+        margin-top: 42rem; 
+    }
+    .pricea h3{
+        margin-left: -16rem;
+        margin-top: 17rem;
+        font-size:1.5rem ;
+        font-family: 'Roboto Mono', monospace;
+    }
+/*Drinks section discription, price and add icon adjustments*/
+
+.drink-dis{
+    width: 15rem;
+    height: 20rem;
+    margin-left: -8rem;
+    margin-top: 18rem;
+}
+.drink-dis h3{
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.drink-dis p{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 110;
+    font-family: 'Playfair Display';
+}
+.icond{
+ 
+    margin-left: -3rem;
+    margin-top: 42rem; 
+}
+.priced h3{
+    margin-left: -16rem;
+    margin-top: 17rem;
+    font-size:1.5rem ;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/**/
+#story {
+    width: 100%;
+    height: 90%;
+    padding: 300px ;
+    background: #A1B67E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+} 
+
+.box{
+    width: 600px;
+    height:640px;
+    background: transparent;
+    margin-left:-7rem ;
+    margin-top: 6rem;
+}
+.box img{
+    margin-left: -8rem;
+    margin-top: -1rem;
+}
+.box h3{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size: 65px;
+    line-height: 58px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 3rem;
+}
+.box p{
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 30px;
+
+    line-height: 58px;
+
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+/*last page 'visit us' and 'contact me'*/
+
+#last{
+    padding: 40px;
+ 
+    align-items: center;
+    position: top;
+}
+.last-link{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 40px;
+
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+#banner2{
+    width: 100%;
+    height: 100%;
+    background-color: #ECF5F4;
+    background-image: url(images/birdview.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 120vh;
+}
+.address{
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+
+    font-family: 'Playfair Display';    font-weight: 500;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.linkedin{
+    width: 31%;
+    height: 85px;
+    background: transparent;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px 10px;
+}
+
+
+/*
+.contacts{
+    width: 20%;
+    height: 80px;
+    background: #A1B67E;
+
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+
+  margin-top: 10%;
+}*/
+
+
+  #foot{
+    padding: 0px;
+    align-items: center;
+    position: top;
+    background-image: #B5BBBC;
+}
+.foot-link{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 22px;
+
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+    text-decoration: none;
+}
